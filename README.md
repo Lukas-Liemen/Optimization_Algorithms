@@ -10,11 +10,16 @@ $$f(x_1, x_2) = (x_1^2 + x_2 - 11)^2 + (x_1 + x_2^2 - 7)^2\$$
 
 The gradient of the Himmelblau function is given by:
 
+For \( x_1 \):
+
 $$
-\nabla f(x_1, x_2) = \begin{bmatrix}
-\frac{\partial f}{\partial x_1} \\
-\frac{\partial f}{\partial x_2}
-\end{bmatrix}
+\frac{\partial f}{\partial x_1} = 2 \cdot (x_1^2 + x_2 - 11) \cdot 2x_1 + 2 \cdot (x_1 + x_2^2 - 7)
+$$
+
+For \( x_2 \):
+
+$$
+\frac{\partial f}{\partial x_2} = 2 \cdot (x_1^2 + x_2 - 11) + 2 \cdot (x_1 + x_2^2 - 7) \cdot 2x_2
 $$
 
 ## Available Optimizers
