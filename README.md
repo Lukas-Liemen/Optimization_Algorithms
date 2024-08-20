@@ -6,7 +6,7 @@ This repository provides visualizations and animations of several unconstrained 
 
 The Himmelblau function is a well-known test function for optimization algorithms. It has four local minima, making it a challenging problem for optimization methods. The function is defined as:
 
-(f(x_1, x_2) = (x_1^2 + x_2 - 11)^2 + (x_1 + x_2^2 - 7)^2\)
+$$(f(x_1, x_2) = (x_1^2 + x_2 - 11)^2 + (x_1 + x_2^2 - 7)^2\)$$
 
 The gradient of the Himmelblau function is given by:
 
