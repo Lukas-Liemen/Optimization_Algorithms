@@ -30,31 +30,32 @@ Grid Search is a brute-force optimization algorithm that evaluates the objective
 
 ![Grid Search](./images/grid_search.png)
 
-### 2. **Powell's Method**
-
-Powell's Method is a derivative-free optimization algorithm that iteratively refines the direction of search. It performs a series of line searches along each dimension to find the minimum.
-
-![Powell](./images/powell.png)
-
-### 3. **Steepest Descent**
-
-The Steepest Descent method uses the gradient of the function to guide the search. It iteratively moves in the direction of the steepest descent (negative gradient) until convergence.
-
-![Steepest Descent](./images/steepest_descent.png)
-
-### 4. **Conjugate Gradient**
-
-The Conjugate Gradient method is an optimization algorithm that combines the gradients from previous steps to converge faster than Steepest Descent. It is particularly effective for large-scale problems.
-
-![Conjugate Gradient](./images/conjugate_gradient.png)
-
-### 5. **Nelder-Mead**
+### 2. **Nelder-Mead**
 
 Nelder-Mead is a simplex-based optimization method that does not require gradient information. It is suitable for non-differentiable functions or when the gradient is expensive to compute.
 
 ![Nelder-Mead](./images/nelder_mead.png)
 
 ![Nelder-Mead Animation](./images/nelder_mead.gif)
+
+### 3. **Powell's Method**
+
+Powell's Method is a derivative-free optimization algorithm that iteratively refines the direction of search. It performs a series of line searches along each dimension to find the minimum.
+
+![Powell](./images/powell.png)
+
+### 4. **Steepest Descent**
+
+The Steepest Descent method uses the gradient of the function to guide the search. It iteratively moves in the direction of the steepest descent (negative gradient) until convergence.
+
+![Steepest Descent](./images/steepest_descent.png)
+
+### 5. **Conjugate Gradient**
+
+The Conjugate Gradient method is an optimization algorithm that combines the gradients from previous steps to converge faster than Steepest Descent. It is particularly effective for large-scale problems.
+
+![Conjugate Gradient](./images/conjugate_gradient.png)
+
 
 ### 6. **BFGS (Broyden–Fletcher–Goldfarb–Shanno)**
 
