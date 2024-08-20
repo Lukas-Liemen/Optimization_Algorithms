@@ -34,9 +34,7 @@ Grid Search is a brute-force optimization algorithm that evaluates the objective
 
 Nelder-Mead is a simplex-based optimization method that does not require gradient information. It is suitable for non-differentiable functions or when the gradient is expensive to compute.
 
-![Nelder-Mead](./images/nelder_mead.png)
-
-![Nelder-Mead Animation](./images/nelder_mead.gif)
+![Nelder-Mead Animation](./images/nelder_mead.gif) ![Nelder-Mead](./images/nelder_mead.png)
 
 ### 3. **Powell's Method**
 
